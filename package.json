@@ -1,0 +1,23 @@
+{
+  "name": "testredis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "path": "^0.12.7",
+    "redis": "^2.8.0",
+    "redis-cli": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
